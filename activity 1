@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+    cout << "Lady Analyn M. Falcon \n";
+    cout << "Poblacion, Tantangan, South Cotabato \n";
+    cout << "ACLC College of Marbel \n";
+    cout << "BSIT-1 \n";
+    return 0;
+}
