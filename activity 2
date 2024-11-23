@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int num1, num2;
+int sum;
+int numtosubtract;
+
+int main () {
+cout << "enter first number: ";
+cin >> num1;
+cout << "enter second number: ";
+cin >> num2;
+sum = num1 + num2;
+cout << "the sum of " << num1 << " and " << num2 << " is: " << sum << endl;
+
+cout << "enter a number to subtract from the sum: ";
+cin >> numtosubtract;
+sum = sum - numtosubtract;
+cout << "the result after subtracting " << numtosubtract << " from the " << sum << " is: " << sum;
+
+return 0;
+}
